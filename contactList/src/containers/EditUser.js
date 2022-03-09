@@ -15,6 +15,7 @@ const EditUser = () => {
   });
 
   // ___________________________________________________________________________________
+//   populate selected item fields on clicking the edit button
   const { id } = useParams();
 
   useEffect(() => {
